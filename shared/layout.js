@@ -7,7 +7,7 @@ import fontawesomeStyle from 'font-awesome/css/font-awesome.css'
 import stylesheet from '../styles/index.scss'
 
 const Layout = ({ children, title }) => (
-  <div>
+  <div class="background">
     <Head>
       <title>{ title }</title>
       <meta charSet='utf-8' />
