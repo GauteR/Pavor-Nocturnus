@@ -17,9 +17,7 @@ const Layout = ({ children, title }) => (
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     <Header />
-    
-    { children }
-
+      { children }
     <Footer />
   </div>
 )

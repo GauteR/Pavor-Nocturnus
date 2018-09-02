@@ -9,10 +9,12 @@ $h: 700px;
 .background {
     height: 100%;
     width: auto;
-    background-color: $gray-300;
+    background-color: $gray-800;
+    /*
     background: url("/static/images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    */
 }
 div#frontpage {
     text-align: center !important;
@@ -33,7 +35,11 @@ div#frontpage {
         }
     }
 }
+header {
+    background-color: $black;
+}
 footer {
+    background-color: $black;
     h1, h2, h3, h4, h5, p {
         color: $gray-300;
     }
